@@ -70,12 +70,19 @@ model.val(
     split='test'
 )
 
-##    Metrics include:
+## 📊 Results
 
-mAP
-precision
-recall
-validation loss
+| Metric | Score |
+|---|---|
+| Precision | ~83.3% |
+| Recall | ~84.7% |
+| mAP@50 | ~90.7% |
+| mAP@50-95 | ~67.1% |
+
+### Training Observations
+- Training and validation losses decreased consistently
+- Validation metrics improved steadily throughout training
+- The model generalized well on unseen test data
 ##    🎯 Project Goal
 
 The goal of this project is to gain hands-on experience with modern object detection systems by building a complete YOLOv8 training pipeline using a custom banana dataset.
