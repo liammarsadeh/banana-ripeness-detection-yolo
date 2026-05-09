@@ -1,4 +1,4 @@
-🍌 Banana Detection using YOLOv8
+## 🍌 Banana Detection using YOLOv8
 
 A deep learning-based object detection project built using the Ultralytics YOLOv8 framework to detect bananas through custom training and evaluation pipelines.
 
@@ -12,7 +12,7 @@ testing on unseen data
 
 The model was trained incrementally using multiple training sessions while monitoring validation performance and loss reduction to improve generalization.
 
-🚀 Features
+##    🚀 Features
 YOLOv8-based object detection
 Custom banana dataset training
 Validation on separate test split
@@ -23,13 +23,13 @@ Model evaluation using YOLO metrics
 Python
 Ultralytics YOLOv8
 Jupyter Notebook
-📁 Project Structure
+##    📁 Project Structure
 banana dataset/
 ├── train/
 ├── val/
 ├── test/
 └── data.yaml
-🧠 Training Workflow
+##    🧠 Training Workflow
 
 The project follows an iterative training strategy:
 
@@ -70,13 +70,13 @@ model.val(
     split='test'
 )
 
-Metrics include:
+##    Metrics include:
 
 mAP
 precision
 recall
 validation loss
-🎯 Project Goal
+##    🎯 Project Goal
 
 The goal of this project is to gain hands-on experience with modern object detection systems by building a complete YOLOv8 training pipeline using a custom banana dataset.
 
